@@ -9,6 +9,7 @@ import CheckIn from "../security/CheckIn";
 import HomeLayout from "./HomeLayout";
 
 export default function LayoutPage() {
+  console.log('hello');
   return (
     <Stack>
       <CheckIn>
